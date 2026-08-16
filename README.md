@@ -1,7 +1,7 @@
 # Supply Chain RAG System
 
 <<<<<<< HEAD
-## 📋 Project Overview
+##  Project Overview
 
 A **Retrieval-Augmented Generation (RAG)** system for supply chain knowledge management that answers questions about Meridian Procurement policies and supply chain performance using **locally-hosted AI models** (no cloud API keys required).
 
@@ -18,7 +18,7 @@ Meridian Manufacturing needs to:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -158,7 +158,7 @@ The system is designed to answer **only from the retrieved document context** an
 ---
 
 <<<<<<< HEAD
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Component | Technology | Version | Purpose |
 |-----------|-----------|---------|---------|
@@ -174,7 +174,7 @@ The system is designed to answer **only from the retrieved document context** an
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 supply-chain-rag/
@@ -841,7 +841,7 @@ Tests PDF upload, indexing, and chunk count verification:
 ✓ INGESTION SUCCESSFUL!
    Files: 2
    Chunks: 22
-✅ SUCCESS! Total chunks indexed: 22
+ SUCCESS! Total chunks indexed: 22
 ```
 
 ### Run Query Tests (All 10 Assignment Questions)
@@ -857,7 +857,7 @@ Tests semantic retrieval and answer generation:
 ✓ Answered: 10/10
 ✗ Failed:   0/10
 
-📊 Results by Category:
+ Results by Category:
   Cross-Document: 5/5 (100%)
   Single Document (Policy): 2/2 (100%)
   Single Document (Review): 2/2 (100%)
@@ -947,7 +947,7 @@ chroma_db/
 ---
 
 <<<<<<< HEAD
-## 📊 Test Results Summary
+## Test Results Summary
 
 ### Query Test Results (10 Assignment Questions)
 
@@ -979,7 +979,7 @@ chroma_db/
 
 ---
 
-## 🔍 RAG Pipeline Explanation
+##  RAG Pipeline Explanation
 
 ### Ingestion Pipeline
 
@@ -1024,7 +1024,7 @@ chroma_db/
 
 ---
 
-## 🐛 Known Issues & Limitations
+##  Known Issues & Limitations
 
 ### Issue 1: Source Metadata Missing
 
@@ -1071,7 +1071,7 @@ chroma_db/
 
 ---
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 | Metric | Measurement | Context |
 |--------|-------------|---------|
@@ -1083,7 +1083,7 @@ chroma_db/
 
 ---
 
-## 🎓 RAG Concepts Used
+##  RAG Concepts Used
 
 ### Semantic Search
 Converts natural language to vectors, finds similar chunks (cosine distance), avoids exact keyword matching
@@ -1099,7 +1099,7 @@ LLM given structured instructions: reasoning format, citation requirements, supp
 
 ---
 
-## 🔄 Workflow Example
+##  Workflow Example
 
 **User asks:** "For Kaveri Metals, which clauses in the procurement policy are triggered based on their performance?"
 
@@ -1126,7 +1126,7 @@ LLM given structured instructions: reasoning format, citation requirements, supp
 
 ---
 
-## 🚀 Deployment Options
+##  Deployment Options
 
 ### Local Development (Current)
 - **Ollama:** Runs locally on port 11434
@@ -1153,7 +1153,7 @@ To switch to OpenAI GPT-4o (faster, more accurate):
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Problem: "Connection refused" on /ingest or /ask
 **Solution:** 
@@ -1179,7 +1179,7 @@ To switch to OpenAI GPT-4o (faster, more accurate):
 
 ---
 
-## 📚 References
+##  References
 
 - **ChromaDB Docs:** https://docs.trychroma.com/
 - **LangChain Docs:** https://python.langchain.com/
@@ -1189,7 +1189,7 @@ To switch to OpenAI GPT-4o (faster, more accurate):
 
 ---
 
-## ✅ Verification Checklist
+##  Verification Checklist
 
 - [x] Environment setup (Python 3.13, venv, pip install)
 - [x] Ollama installation (llama2, nomic-embed-text models pulled)
@@ -1203,7 +1203,7 @@ To switch to OpenAI GPT-4o (faster, more accurate):
 
 ---
 
-## 📝 Future Improvements
+##  Future Improvements
 
 1. **Metadata Fix:** Restore filename/document type in source citations
 2. **Hallucination Detection:** Add confidence scoring for out-of-scope questions
@@ -1215,7 +1215,7 @@ To switch to OpenAI GPT-4o (faster, more accurate):
 
 ---
 
-**Project Status:** ✅ **COMPLETE** — All core functionality working, fully tested, production-ready (local deployment)
+**Project Status:**  **COMPLETE** — All core functionality working, fully tested, production-ready (local deployment)
 
 **Last Updated:** 2024 | **Python 3.13.5** | **Ollama Local** | **FastAPI 0.141.1**
 =======
